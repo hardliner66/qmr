@@ -1,10 +1,13 @@
 body {
     font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    page-size: A4 landscape;
 }
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 .section, .fancy-section {
     border: 1px solid black;
@@ -23,11 +26,16 @@ h1, h2 {
     justify-content: flex-start;
     align-items: center;
 }
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+  width: 400px;
+  margin-right: 10px;
+}
 .large-input-field {
     grid-column: span 4;
-}
-textarea {
-    flex-grow: 1;
 }
 .page-break {
     page-break-before: always;
