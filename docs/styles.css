@@ -9,17 +9,22 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
-.section, .fancy-section {
+.section {
     border: 1px solid black;
     padding: 10px;
-    margin: 5px;
-    font-size: 14px;
-}
-.fancy-section {
-    background-color: #f5f5f5;
+    font-size: 12px;
 }
 h1, h2 {
-    margin-top: 0;
+    margin-bottom: 5px;
+}
+.page-break {
+    page-break-before: always;
+}
+.fancy-section {
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 14px;
 }
 .input-field, .large-input-field {
     display: flex;
@@ -36,7 +41,4 @@ label {
 }
 .large-input-field {
     grid-column: span 4;
-}
-.page-break {
-    page-break-before: always;
 }
