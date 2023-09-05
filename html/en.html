@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Magic Realm 1.0 Cheat Sheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+        }
+        .section, .fancy-section {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        .fancy-section {
+            background-color: #f5f5f5;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        .input-field, .large-input-field {
+            display: flex;
+            justify-content: space-between;
+        }
+        .large-input-field {
+            grid-column: span 4;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page 1: Rules and Tips -->
+<div class="container">
+    <!-- Core Concepts -->
+    <div class="section">
+        <h1>Core Concepts</h1>
+        <ul>
+            <li>GM: Manages world and story.</li>
+            <li>Players: Control characters.</li>
+            <li>Stats: STR, AGI, INT, WIS.</li>
+            <li>HP: 10 + STR.</li>
+            <li>MP: 10 + WIS.</li>
+        </ul>
+    </div>
+
+    <!-- Character Creation -->
+    <div class="section">
+        <h1>Character Creation</h1>
+        <ul>
+            <li>Roll 4d6 for stats, drop lowest.</li>
+            <li>Pick basic weapon and armor.</li>
+            <li>Choose a special ability.</li>
+        </ul>
+    </div>
+
+    <!-- Gameplay -->
+    <div class="section">
+        <h1>Gameplay</h1>
+        <ul>
+            <li>Turns based on AGI.</li>
+            <li>Actions: Move, Attack, Item, Spell.</li>
+        </ul>
+    </div>
+
+    <!-- Checks & Outcomes -->
+    <div class="section">
+        <h1>Checks & Outcomes</h1>
+        <ul>
+            <li>Skill Checks: 1d6 + stat.</li>
+            <li>Combat: 1d6 + STR/AGI.</li>
+            <li>Magic: 1d6 + WIS.</li>
+        </ul>
+    </div>
+
+    <!-- DM Tips & Tricks -->
+    <div class="section">
+        <h1>DM Tips & Tricks</h1>
+        <ul>
+            <li>Be Adaptable: Be ready to adjust your plans.</li>
+            <li>Engage Players: Use NPCs to offer insights and resources.</li>
+            <li>Fairness: Balance challenges for a more enjoyable game.</li>
+            <li>Improv: Use "Yes, and..." to make the game more engaging.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Page Break -->
+<div class="page-break"></div>
+
+<!-- Page 2: Character Sheet -->
+<div class="fancy-section">
+    <h1>Character Sheet</h1>
+    <div class="container">
+        <div class="input-field"><label>Name:</label> <input type="text"></div>
+        <div class="input-field"><label>Class:</label> <input type="text"></div>
+        <div class="input-field"><label>HP:</label> <input type="text"></div>
+        <div class="input-field"><label>MP:</label> <input type="text"></div>
+        <div class="input-field"><label>STR:</label> <input type="text"></div>
+        <div class="input-field"><label>AGI:</label> <input type="text"></div>
+        <div class="input-field"><label>INT:</label> <input type="text"></div>
+        <div class="input-field"><label>WIS:</label> <input type="text"></div>
+        <div class="input-field"><label>Special Ability:</label> <input type="text"></div>
+        <div class="large-input-field">
+            <label>Equipment & Notes:</label>
+            <textarea rows="8"></textarea>
+        </div>
+    </div>
+    <h2>Character Tips</h2>
+    <ul>
+        <li>Improv: Use "Yes, and..." to build a richer story.</li>
+        <li>Teamwork: A balanced team is stronger than a solo hero.</li>
+        <li>Skills: Core stats guide actions. Use them.</li>
+        <li>Engage: Don't skip NPC interactions.</li>
+    </ul>
+</div>
+
+</body>
+</html>
+

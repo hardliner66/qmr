@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quick Magic Realm 1.0 Cheat Sheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 10px;
+        }
+        .section, .fancy-section {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 5px;
+            font-size: 14px;
+        }
+        .fancy-section {
+            background-color: #f5f5f5;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        .input-field, .large-input-field {
+            display: flex;
+            justify-content: space-between;
+        }
+        .large-input-field {
+            grid-column: span 4;
+        }
+        .page-break {
+            page-break-before: always;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Seite 1: Regeln und Tipps -->
+<div class="container">
+    <!-- Grundkonzepte -->
+    <div class="section">
+        <h1>Grundkonzepte</h1>
+        <ul>
+            <li>SL: Verwaltet Welt und Geschichte.</li>
+            <li>Spieler: Steuern Charaktere.</li>
+            <li>Eigenschaften: STR, AGI, INT, WIS.</li>
+            <li>LP: 10 + STR.</li>
+            <li>MP: 10 + WIS.</li>
+        </ul>
+    </div>
+
+    <!-- Charaktererstellung -->
+    <div class="section">
+        <h1>Charaktererstellung</h1>
+        <ul>
+            <li>4W6 für Eigenschaften, niedrigste entfernen.</li>
+            <li>Einfache Waffe und Rüstung wählen.</li>
+            <li>Spezialfähigkeit wählen.</li>
+        </ul>
+    </div>
+
+    <!-- Spielverlauf -->
+    <div class="section">
+        <h1>Spielverlauf</h1>
+        <ul>
+            <li>Reihenfolge basiert auf AGI.</li>
+            <li>Aktionen: Bewegen, Angreifen, Gegenstand, Zauber.</li>
+        </ul>
+    </div>
+
+    <!-- Checks & Ergebnisse -->
+    <div class="section">
+        <h1>Checks & Ergebnisse</h1>
+        <ul>
+            <li>Fähigkeitschecks: 1W6 + Eigenschaft.</li>
+            <li>Kampf: 1W6 + STR/AGI.</li>
+            <li>Magie: 1W6 + WIS.</li>
+        </ul>
+    </div>
+
+    <!-- SL Tipps & Tricks -->
+    <div class="section">
+        <h1>SL Tipps & Tricks</h1>
+        <ul>
+            <li>Flexibel sein: Seien Sie bereit, Pläne anzupassen.</li>
+            <li>Spieler Einbeziehen: Nutzen Sie NSCs für Infos und Ressourcen.</li>
+            <li>Fairness: Ausgewogene Herausforderungen gestalten das Spiel angenehmer.</li>
+            <li>Improv: Verwenden Sie "Ja, und..." um das Spiel ansprechender zu gestalten.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- Seitenwechsel -->
+<div class="page-break"></div>
+
+<!-- Seite 2: Charakterbogen -->
+<div class="fancy-section">
+    <h1>Charakterbogen</h1>
+    <div class="container">
+        <div class="input-field"><label>Name:</label> <input type="text"></div>
+        <div class="input-field"><label>Klasse:</label> <input type="text"></div>
+        <div class="input-field"><label>LP:</label> <input type="text"></div>
+        <div class="input-field"><label>MP:</label> <input type="text"></div>
+        <div class="input-field"><label>STR:</label> <input type="text"></div>
+        <div class="input-field"><label>AGI:</label> <input type="text"></div>
+        <div class="input-field"><label>INT:</label> <input type="text"></div>
+        <div class="input-field"><label>WIS:</label> <input type="text"></div>
+        <div class="input-field"><label>Spezialfähigkeit:</label> <input type="text"></div>
+        <div class="large-input-field">
+            <label>Ausrüstung & Notizen:</label>
+            <textarea rows="8"></textarea>
+        </div>
+    </div>
+    <h2>Charaktertipps</h2>
+    <ul>
+        <li>Improv: Nutze "Ja, und..." für eine reichere Geschichte.</li>
+        <li>Teamarbeit: Ein ausgewogenes Team ist stärker als ein Einzelheld.</li>
+        <li>Fähigkeiten: Kernattribute leiten Aktionen. Nutze sie.</li>
+        <li>Interaktion: Überspringe nicht den Kontakt mit NSCs.</li>
+    </ul>
+</div>
+
+</body>
+</html>
+
